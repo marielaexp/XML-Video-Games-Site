@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videogames2.xsl"?>
+<!DOCTYPE games [
+    <!ELEMENT games (game+)>
+    <!ELEMENT game (title, genres, rating, release_date, platforms, image)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT genres (genre+)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT rating (#PCDATA)>
+    <!ELEMENT release_date (year, month, day)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT month (#PCDATA)>
+    <!ELEMENT day (#PCDATA)>
+    <!ELEMENT platforms (platform+)>
+    <!ELEMENT platform (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>
+    <!ATTLIST rating
+    required CDATA #REQUIRED
+    >
+]>
+<games>
+    <game>
+        <title>Assassin's Creed Valhalla</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <rating>9.0</rating>
+        <release_date>
+            <year>2020</year>
+            <month>11</month>
+            <day>10</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">PlayStation 4</platform>
+            <platform status="Unavailable">Xbox One</platform>
+            <platform status="Available">Microsoft Windows</platform>
+        </platforms>
+                <image>assassin-creed.jpg</image>
+    </game>
+
+    <game>
+        <title>The Legend of Zelda: Breath of the Wild</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>RPG</genre>
+        </genres>
+        <rating>9.5</rating>
+            <release_date>
+            <year>2017</year>
+            <month>03</month>
+            <day>03</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">Nintendo Switch</platform>
+            <platform status="Unavailable">Wii U</platform>
+        </platforms>
+                <image>the-legend-of-zelda.jpg</image>
+    </game>
+
+    <game>
+        <title>Red Dead Redemption 2</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <rating>9.8</rating>
+            <release_date>
+            <year>2018</year>
+            <month>10</month>
+            <day>26</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">PlayStation 4</platform>
+            <platform status="Available">Xbox One</platform>
+            <platform status="Unavailable">Microsoft Windows</platform>
+        </platforms>
+                <image>red-dead-redemption.jpg</image>
+    </game>
+
+    <game>
+        <title>Cyberpunk 2077</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>RPG</genre>
+        </genres>
+        <rating>8.7</rating>
+            <release_date>
+            <year>2020</year>
+            <month>12</month>
+            <day>10</day>
+        </release_date>
+        <platforms>
+            <platform status="Unavailable">PlayStation 4</platform>
+            <platform status="Available">Xbox One</platform>
+            <platform status="Unavailable">Microsoft Windows</platform>
+        </platforms>
+                <image>cyberpunk.jpg</image>
+    </game>
+
+    <game>
+        <title>FIFA 22</title>
+        <genres>
+            <genre>Sports</genre>
+        </genres>
+        <rating>8.2</rating>
+            <release_date>
+            <year>2021</year>
+            <month>10</month>
+            <day>01</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">PlayStation 5</platform>
+            <platform status="Unavailable">Xbox Series X/S</platform>
+            <platform status="Available">PlayStation 4</platform>
+            <platform status="Unavailable">Xbox One</platform>
+            <platform status="Available">Microsoft Windows</platform>
+        </platforms>
+                <image>fifa22.jpg</image>
+    </game>
+
+    <game>
+        <title>The Witcher 3: Wild Hunt</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>RPG</genre>
+        </genres>
+        <rating>9.8</rating>
+            <release_date>
+            <year>2015</year>
+            <month>05</month>
+            <day>19</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">PlayStation 4</platform>
+            <platform status="Available">Xbox One</platform>
+            <platform status="Unavailable">Nintendo Switch</platform>
+            <platform status="Available">Microsoft Windows</platform>
+        </platforms>
+                <image>the-witcher-3.jpg</image>
+    </game>
+
+    <game>
+        <title>Overwatch</title>
+        <genres>
+            <genre>First-Person Shooter</genre>
+            <genre>Team-Based</genre>
+        </genres>
+        <rating>9.0</rating>
+            <release_date>
+            <year>2016</year>
+            <month>05</month>
+            <day>24</day>
+        </release_date>
+        <platforms>
+            <platform status="Available">PlayStation 4</platform>
+            <platform status="Available">Xbox One</platform>
+            <platform status="Available">Microsoft Windows</platform>
+        </platforms>
+                <image>overwatch.jpg</image>
+    </game>
+    <game>
+    <title>Horizon Zero Dawn</title>
+    <genres>
+        <genre>Action</genre>
+        <genre>Adventure</genre>
+        <genre>RPG</genre>
+    </genres>
+    <rating>9.2</rating>
+    <release_date>
+        <year>2017</year>
+        <month>02</month>
+        <day>28</day>
+    </release_date>
+    <platforms>
+        <platform status="Unavailable">PlayStation 4</platform>
+        <platform status="Available">Microsoft Windows</platform>
+    </platforms>
+    <image>horizon-zero-dawn.jpg</image>
+</game>
+
+<game>
+    <title>Dark Souls III</title>
+    <genres>
+        <genre>Action</genre>
+        <genre>RPG</genre>
+    </genres>
+    <rating>9.5</rating>
+    <release_date>
+        <year>2016</year>
+        <month>04</month>
+        <day>12</day>
+    </release_date>
+    <platforms>
+        <platform status="Available">PlayStation 4</platform>
+        <platform status="Available">Xbox One</platform>
+        <platform status="Available">Microsoft Windows</platform>
+    </platforms>
+    <image>dark-souls-3.jpg</image>
+</game>
+</games>

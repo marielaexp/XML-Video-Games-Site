@@ -1,0 +1,15 @@
+<!DOCTYPE games [
+  <!ELEMENT games (game+)>
+  <!ELEMENT game (title, genres, rating, release_date, platforms, image)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT genres (genre+)>
+  <!ELEMENT genre (#PCDATA)>
+  <!ELEMENT rating (#PCDATA)>
+  <!ELEMENT release_date (year, month, day)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT month (#PCDATA)>
+  <!ELEMENT day (#PCDATA)>
+  <!ELEMENT platforms (platform+)>
+  <!ELEMENT platform (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+]>
